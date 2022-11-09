@@ -218,7 +218,7 @@ section {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  padding: 20px auto;
+  padding: 20px;
 }
 
 .btn-chev {
@@ -263,7 +263,7 @@ section {
   font-weight: 600;
   font-size: 40px;
   margin: 0;
-  height: fit-content;
+  height: auto;
   padding: 5px 0;
   text-align: center;
 }
