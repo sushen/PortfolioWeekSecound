@@ -334,13 +334,13 @@ form {
 }
 
 .head_description {
-   background-image: url("images/background_image/main_header.svg");
+  background-image: url("images/background_image/main_header.svg");
 }
 
 .contact_me {
   padding-top: -1%;
   position: relative;
-  background-image: url("images/background_image/Ellipse-3.svg"), url("images/background_image/Rectangle-4.svg") , url("images/background_image/Ellipse-5.svg"), url("images/background_image/Ellipse-12.svg"), url("images/background_image/Rectangle-7.svg");
+  background-image: url("images/background_image/Ellipse-3.svg"), url("images/background_image/Rectangle-4.svg"), url("images/background_image/Ellipse-5.svg"), url("images/background_image/Ellipse-12.svg"), url("images/background_image/Rectangle-7.svg");
   background-repeat: no-repeat;
-  background-position: top 1em left 18.5em, top 0em left 16.5em, bottom 5em left 14em, top 0em left 10em, bottom 5em left 14em;
+  background-position: top 1em left 18.5em, top 1em left 16.5em, bottom 5em left 14em, top 1em left 10em, bottom 5em left 14em;
 }
