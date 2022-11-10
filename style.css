@@ -424,9 +424,10 @@ form {
   }
 
   .head_description {
-    width: 100%;
+    width: 90%;
+    align: center;
     min-height: 196hv;
-    background-image: url("images/background_image/desktop_image/header_bg@2x.png");
+    background-image: url("images/desktop/desktop_image/header_bg.svg");
     border: 1px solid blue;
 
   }
