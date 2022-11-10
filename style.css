@@ -33,6 +33,27 @@ header {
   margin-top: 4px;
 }
 
+.menu-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  width: 375px;
+  border: 1px solid yellow;
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+.dst-cont {
+
+}
+
+.dsktp-lf-menu {
+  display: none;
+}
+
 nav {
   padding: 8px;
 }
@@ -343,4 +364,71 @@ form {
   background-image: url("images/background_image/Ellipse-3.svg"), url("images/background_image/Rectangle-4.svg"), url("images/background_image/Ellipse-5.svg"), url("images/background_image/Ellipse-12.svg"), url("images/background_image/Rectangle-7.svg");
   background-repeat: no-repeat;
   background-position: top 1em left 18.5em, top 1em left 16.5em, bottom 5em left 14em, top 1em left 10em, bottom 5em left 14em;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .wrap {
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    border: 1px soilid black;
+  }
+
+  nav {
+    width: 100%;
+  }
+  
+
+  .menu-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    border: 1px solid yellow;
+  }
+
+  .dsktp-lf-menu {
+    display: block;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .dst-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+  }
+  
+  .menu-ul {
+    display: flex;
+    width: 400px;
+    border: 1px solid yellow;
+  }
+
+  .menu-ul li {
+    list-style: none;
+    margin: 10px;
+  }
+
+  .head_description {
+    width: 100%;
+    min-height: 196hv;
+    background-image: url("images/background_image/desktop_image/header_bg@2x.png");
+    border: 1px solid blue;
+
+  }
+  
 }
