@@ -12,8 +12,9 @@ body {
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
+
 main {
-   background-color: rgb(246 247 251);
+  background-color: rgb(246 247 251);
 }
 
 .wrap {
@@ -48,10 +49,6 @@ header {
 
 .menu-icon {
   margin-right: 10px;
-}
-
-.dst-cont {
-
 }
 
 .dsktp-lf-menu {
@@ -102,7 +99,6 @@ section {
   flex-wrap: wrap;
   padding-left: 8%;
   padding-top: 4%;
-
 }
 
 .contact-title {
@@ -291,7 +287,6 @@ section {
   padding: 18px 12px;
 }
 
-
 .form_header {
   color: white;
   font-weight: 600;
@@ -380,7 +375,6 @@ form {
 }
 
 @media only screen and (min-width: 768px) {
-
   .wrap {
     width: 100%;
   }
@@ -455,6 +449,7 @@ form {
     min-height: 196hv;
     border: 1px solid white;
   }
+
   .mobile_project{
     display:none;
   }
@@ -475,8 +470,7 @@ form {
    flex-direction: column;
    flex-wrap: wrap;
    padding-left: 8%;
-   padding-top: 4%;  
-   
+   padding-top: 4%;     
   }
 
   .left-block {
@@ -486,6 +480,7 @@ form {
    padding-left: 8%;
    padding-top: 4%;
   }
+
   .about-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -498,10 +493,8 @@ form {
    gap: 8px;
    padding: 1em;
   }
-  .multi-post-stories{
-
-  }
 }
+
 @media only screen and (max-width: 768px) {
   .desktop_project {
     display:none;
