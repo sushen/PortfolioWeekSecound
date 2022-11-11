@@ -485,6 +485,20 @@ form {
    flex-wrap: wrap;
    padding-left: 8%;
    padding-top: 4%;
+  }
+  .about-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 37px;
+  }
+
+  .language-list {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   padding: 1em;
+  }
+  .multi-post-stories{
 
   }
 }
