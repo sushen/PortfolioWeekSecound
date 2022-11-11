@@ -366,7 +366,6 @@ form {
   background-position: top 1em left 18.5em, top 1em left 16.5em, bottom 5em left 14em, top 1em left 10em, bottom 5em left 14em;
 }
 
-
 @media only screen and (min-width: 768px) {
 
   .wrap {
@@ -385,7 +384,6 @@ form {
   nav {
     width: 100%;
   }
-  
 
   .menu-cont {
     display: flex;
@@ -425,10 +423,30 @@ form {
 
   .head_description {
     width: 100%;
+    align: center;
+    padding: 15em;
     min-height: 196hv;
-    background-image: url("images/background_image/desktop_image/header_bg@2x.png");
+    background-image: url("images/desktop/desktop_image/header_bg.svg");
     border: 1px solid blue;
-
   }
+   .project {
+    width: 100%;
+    align: center;
+    padding: 15em;
+    min-height: 196hv;
+    background-image: url("images/desktop/desktop_image/header_bg.svg");
+    border: 1px solid blue;
+  }
+  #mobile_project{
+    display:none;
+  }
+  #desktop_project{
+    align:left
+  }
+  .left-block{
+    align:right;
+  }
+
+
   
 }
