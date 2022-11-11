@@ -12,6 +12,9 @@ body {
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
+main {
+   background-color: rgb(246 247 251);
+}
 
 .wrap {
   width: 375px;
@@ -22,6 +25,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
+  background-color: white;
 }
 
 .logo {
@@ -39,7 +43,7 @@ header {
   align-items: center;
   height: 48px;
   width: 375px;
-  border: 1px solid yellow;
+  border: 1px solid white;
 }
 
 .menu-icon {
@@ -91,7 +95,7 @@ section {
 
 .about_myself {
   background-image: none;
-  background-color: rgb(243 244 251);
+  background-color: white;
   border-top-right-radius: 70px;
   display: flex;
   flex-direction: column;
@@ -400,7 +404,8 @@ form {
     align-items: center;
     height: 48px;
     width: 100%;
-    border: 1px solid yellow;
+    border: 1px solid white;
+    padding-left: 7%;
   }
 
   .dsktp-lf-menu {
@@ -422,7 +427,7 @@ form {
   .menu-ul {
     display: flex;
     width: 400px;
-    border: 1px solid yellow;
+    border: 1px solid white;
   }
 
   .menu-ul li {
@@ -436,14 +441,19 @@ form {
     padding: 15em;
     min-height: 196hv;
     background-image: url("images/desktop/desktop_image/header_bg.svg");
-    border: 1px solid blue;
+    background-color: white;
+  }
+
+  .hero-area{
+    margin : 1px;
+    border-button-left-radius: 70px;
   }
    .all_middle_container {
     width: 100%;
     align: center;
     padding: 10em;
     min-height: 196hv;
-    border: 1px solid blue;
+    border: 1px solid white;
   }
   .mobile_project{
     display:none;
@@ -457,6 +467,7 @@ form {
    border: 1px solid #dfe1e6;
    border-radius: 16px;
    margin-bottom: 2%;
+   background-color: white;
   }
 
   .right-block {
