@@ -483,6 +483,7 @@ form {
     grid-gap: 37px;
   }
 
+
   .language-list {
     display: flex;
     flex-direction: row;
@@ -501,6 +502,16 @@ form {
     flex-direction: row;
   }
 }
+  .card {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+
 
 @media only screen and (max-width: 768px) {
   .desktop_project {
