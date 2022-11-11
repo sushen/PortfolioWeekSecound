@@ -422,11 +422,31 @@ form {
   }
 
   .head_description {
-    width: 90%;
+    width: 100%;
     align: center;
+    padding: 15em;
     min-height: 196hv;
     background-image: url("images/desktop/desktop_image/header_bg.svg");
     border: 1px solid blue;
   }
+   .project {
+    width: 100%;
+    align: center;
+    padding: 15em;
+    min-height: 196hv;
+    background-image: url("images/desktop/desktop_image/header_bg.svg");
+    border: 1px solid blue;
+  }
+  #mobile_project{
+    display:none;
+  }
+  #desktop_project{
+    align:left
+  }
+  .left-block{
+    align:right;
+  }
+
+
   
 }
