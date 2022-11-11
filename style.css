@@ -385,7 +385,6 @@ form {
     align-items: center;
     height: 48px;
     width: 100%;
-    border: 1px soilid black;
   }
 
   nav {
@@ -455,48 +454,52 @@ form {
   }
 
   .card {
-   display: flex;
-   flex-direction: row;
-   padding: 16px;
-   gap: 12px;
-   border: 1px solid #dfe1e6;
-   border-radius: 16px;
-   margin-bottom: 2%;
-   background-color: white;
-  }
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-bottom: 2%;
+    background-color: white;
+    }
 
   .right-block {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   padding-left: 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 8%;
    padding-top: 4%;     
   }
 
   .left-block {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   padding-left: 8%;
-   padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-top: 4%;
   }
 
   .about-container {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-gap: 37px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 37px;
   }
 
   .language-list {
-   display: flex;
-   flex-direction: row;
-   gap: 8px;
-   padding: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 1em;
+  }
+  .multi-post-stories{
+    display: flex;
+    flex-display: row;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .desktop_project {
-    display:none;
+    display: none;
   }
 }
