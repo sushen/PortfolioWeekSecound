@@ -416,7 +416,7 @@ form {
     height: 48px;
     width: 100%;
   }
-  
+
   .menu-ul {
     display: flex;
     width: 400px;
@@ -430,27 +430,25 @@ form {
 
   .head_description {
     width: 100%;
-    align: center;
     padding: 15em;
-    min-height: 196hv;
     background-image: url("images/desktop/desktop_image/header_bg.svg");
     background-color: white;
   }
 
-  .hero-area{
-    margin : 1px;
-    border-button-left-radius: 70px;
+  .hero-area {
+    margin: 1px;
   }
-   .all_middle_container {
-    width: 100%;
-    align: center;
-    padding: 10em;
-    min-height: 196hv;
+
+  .all_middle_container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 2em;
     border: 1px solid white;
   }
 
-  .mobile_project{
-    display:none;
+  .mobile_project {
+    display: none;
   }
 
   .card {
@@ -460,16 +458,15 @@ form {
     gap: 12px;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-bottom: 2%;
     background-color: white;
-    }
+  }
 
   .right-block {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding-left: 8%;
-   padding-top: 4%;     
+    padding-top: 4%;
   }
 
   .left-block {
@@ -492,9 +489,16 @@ form {
     gap: 8px;
     padding: 1em;
   }
-  .multi-post-stories{
+
+  .second-card {
+    width: 100%;
     display: flex;
-    flex-display: row;
+    flex-direction: row-reverse;
+  }
+
+  .multi-post-stories {
+    display: flex;
+    flex-direction: row;
   }
 }
 
