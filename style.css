@@ -374,6 +374,12 @@ form {
   background-position: top 1em left 18.5em, top 1em left 16.5em, bottom 5em left 14em, top 1em left 10em, bottom 5em left 14em;
 }
 
+@media only screen and (max-width: 768px) {
+  .desktop_project {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .wrap {
     width: 100%;
@@ -499,11 +505,5 @@ form {
   .multi-post-stories {
     display: flex;
     flex-direction: row;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .desktop_project {
-    display: none;
   }
 }
