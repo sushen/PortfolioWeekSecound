@@ -13,6 +13,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+main {
+  background-color: rgb(246 247 251);
+}
+
 .wrap {
   width: 375px;
 }
@@ -22,6 +26,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
+  background-color: white;
 }
 
 .logo {
@@ -31,6 +36,23 @@ header {
   padding: 10px 12px;
   margin-left: 12px;
   margin-top: 4px;
+}
+
+.menu-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  width: 375px;
+  border: 1px solid white;
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+.dsktp-lf-menu {
+  display: none;
 }
 
 nav {
@@ -70,7 +92,13 @@ section {
 
 .about_myself {
   background-image: none;
-  border-bottom-left-radius: 60px;
+  background-color: white;
+  border-top-right-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 8%;
+  padding-top: 4%;
 }
 
 .contact-title {
@@ -106,6 +134,7 @@ section {
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin-bottom: 2%;
 }
 
 .project-text {
@@ -343,4 +372,138 @@ form {
   background-image: url("images/background_image/Ellipse-3.svg"), url("images/background_image/Rectangle-4.svg"), url("images/background_image/Ellipse-5.svg"), url("images/background_image/Ellipse-12.svg"), url("images/background_image/Rectangle-7.svg");
   background-repeat: no-repeat;
   background-position: top 1em left 18.5em, top 1em left 16.5em, bottom 5em left 14em, top 1em left 10em, bottom 5em left 14em;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop_project {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrap {
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .menu-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    border: 1px solid white;
+    padding-left: 7%;
+  }
+
+  .dsktp-lf-menu {
+    display: block;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .dst-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+  }
+
+  .menu-ul {
+    display: flex;
+    width: 400px;
+    border: 1px solid white;
+  }
+
+  .menu-ul li {
+    list-style: none;
+    margin: 10px;
+  }
+
+  .head_description {
+    width: 100%;
+    padding: 15em;
+    background-image: url("images/desktop/desktop_image/header_bg.svg");
+    background-color: white;
+  }
+
+  .hero-area {
+    margin: 1px;
+  }
+
+  .all_middle_container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 2em;
+    border: 1px solid white;
+  }
+
+  .mobile_project {
+    display: none;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .right-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-top: 4%;
+  }
+
+  .left-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-top: 4%;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 37px;
+  }
+
+  .language-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 1em;
+  }
+
+  .second-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .multi-post-stories {
+    display: flex;
+    flex-direction: row;
+  }
 }
